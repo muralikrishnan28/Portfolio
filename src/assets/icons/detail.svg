@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="targeted-communication" x="0" y="0" style="enable-background:new 0 0 3500 3500" version="1.1" viewBox="0 0 3500 3500">
+  <g>
+    <path d="
+		M2942.217,1409.154H1336.782c-112.755,0-204.161,91.406-204.161,204.161V2766.14c0,112.755,91.406,204.161,204.161,204.161
+		h1124.552L2735.597,3300v-329.698h206.621c112.755,0,204.162-91.406,204.162-204.161V1613.315
+		C3146.379,1500.56,3054.973,1409.154,2942.217,1409.154z" style="fill:#fff;stroke:#000;stroke-width:58.8251;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+    <g>
+      <polyline points="1575.435 2496.341 2003.963 2089.604 2311.921 2449.857 2824.372 1972.747" style="fill:#fff;stroke:#000;stroke-width:36.7657;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></polyline>
+      <circle cx="2305.868" cy="2457.443" r="111.853"></circle>
+      <circle cx="2019.215" cy="2101.063" r="111.853" transform="rotate(-45.001 2019.2 2101.097)"></circle>
+      <circle cx="1575.435" cy="2480.685" r="111.853" transform="rotate(-45.001 1575.414 2480.715)"></circle>
+      <circle cx="2823.249" cy="1972.747" r="111.853" transform="rotate(-45.001 2823.239 1972.79)"></circle>
+    </g>
+    <g>
+      <g>
+        <g>
+          <circle cx="1171.908" cy="1355.424" r="818.287" style="fill:#fff;stroke:#000;stroke-width:46.3773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+          <circle cx="1171.908" cy="1355.424" r="818.287" style="opacity:.25"></circle>
+          <g>
+            <circle cx="1171.909" cy="1355.424" r="565.294" style="fill:#fff;stroke:#000;stroke-width:46.3773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+            <circle cx="1171.908" cy="1355.424" r="329.425" style="fill:#fff;stroke:#000;stroke-width:46.3773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+            <circle cx="1171.908" cy="1355.424" r="329.425" style="opacity:.25"></circle>
+            <circle cx="1171.909" cy="1355.424" r="121.726" style="fill:#fff;stroke:#000;stroke-width:46.3773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="rotate(-45.001 1171.898 1355.444)"></circle>
+          </g>
+        </g>
+        <g>
+          <line x1="1214.3" x2="1956.364" y1="1355.424" y2="618.934" style="fill:none;stroke:#000;stroke-width:46.3773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+          <polygon points="2059.607 514.166 2060.871 200 1798.434 462.437 1798.434 776.602 2107.364 776.602 2369.71 514.166"></polygon>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

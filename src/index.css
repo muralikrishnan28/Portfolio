@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom right, #0f172a , #2b3651, #bec4ca);
+  color: #e2e8f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.responsive-text {
+  font-size: 0.8rem; /* default for mobile */
+}
+
+@media (min-width: 1700px) {
+  .responsive-text {
+    font-size: 0.9rem;
+  }
+}
+
+.primary-color{
+  color: #3b82f6;
+}
+.secondary-color{
+  color: #10b981;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+}
+
+h4 {
+  color: #3b82f6;
+}
+
+/* ================ Navbar =============== */
+
+.nav-btn {
+  font-size: small;
+  padding: 7px 15px 10px 15px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #0f172a);
+  color:white
+}
+
+.progress-bar-scroll {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #0d6efd;
+  transform-origin: 0%; /* grow from left to right */
+}
+
+/* ============ Home Page / Profile Photo ============ */
+
+.profile {
+  width: 250px;
+  border-radius: 50%;
+}
+.hero-card {
+  border-radius: 3rem;
+  background-image: linear-gradient(to bottom right, #1e293b 40%,#10b981);
+}
+
+.blinking-cursor {
+  color: white;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ============ About page ============= */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 19px rgba(128, 128, 128, 0.533);
+}
+
+.about-aside {
+  height: max-content;
+  border-radius: 1rem;
+  background-image:repeating-conic-gradient(#1e293b 40%,#10b981 65% );
+}
+
+/* ============ All cards =============== */
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(130, 130, 130, 0.156);
+}
+
+/* ======== All Images ==========  */
+
+img{
+  border-radius: 1rem;
+}
+
+/* ============ All Badges ============= */
+
+.badge{
+  border-radius: 10px;
+  background: #3b82f6;
+}
+
+/* =========== Project Card Anime ===========  */
+
+.project-card {
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-image {
+  height: 18rem;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.416);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 1rem;
+}
+
+.link-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  transform: scale(1.1);
+}
+
+/* =========== Skill Level ============ */
+
+.progress{
+  border: solid 1px rgba(0, 0, 0, 0.292);
+  border-radius: 50px;
+  height: 10px;
+}
+
+/* =========== Contact page =========== */
+
+.cont-logo {
+  border-radius: .75rem;
+  background: #3b82f6;
+  color: white;
+}
+
+.text-contact {
+  color: #10b981;
+}
+
+.connect-icon {
+  border-radius: 1rem;
+  padding: 8px;
+  background-color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #3b82f6;
+  transition:ease-in transform 100ms;
+}
+
+.connect-icon:hover {
+  transform: scale(1.03);
+  background-color: #ffffffca;
+  color: #3b82f6
+}
+
+/* Default: flex row (for >450px) */
+.responsive-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: start; /* center icons on mid screens */
+  gap: 1rem;
+  text-align: center;
+}
+
+/* Below 450px: flex column */
+@media (max-width: 450px) {
+  .responsive-socials {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+}
+
+.send-msg:hover{
+  background-color: #10b981 ;
+  color: white;
+}
