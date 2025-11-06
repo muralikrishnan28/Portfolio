@@ -16,7 +16,7 @@ export default function Projects() {
                         < ProjectCard
                             image={Thinkboard}
                             title={"ThinkBoard – Note Creation App"}
-                            techStack={["React.js", "Express.js", "Mango DB", "Framer Motion", "Axios"]}
+                            techStack={["React.js", "Express.js", "Mongo DB", "Framer Motion", "Axios"]}
                             description={"Developed a note management app with React.js frontend & Express.js backend. Used dotenv for security and Upstash Redis for rate limiting. Added Framer Motion animations for smooth UX."}
                             features={[
                                 "Create, view, and manage notes with title & detailed content.",
